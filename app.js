@@ -43,6 +43,7 @@ const userRouter = require("./Routes/user.js");
 // ==========================================
 
 const app = express();
+app.set("trust proxy", 1);
 
 
 // ==========================================
